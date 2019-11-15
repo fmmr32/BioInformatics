@@ -1,0 +1,28 @@
+grep -i 'gene' as.gff| cut -f1,4,5,7,9| awk '{sub(/locus_tag/,".",$5)};1'| cut -d '.' -f3
+
+
+awk -v "OFS=\t" '{$9 = $9; sub(/.*tag=/,"",$9); print}' as.gff |cut -f1,9
+
+
+awk -v  '{$4 = $4; sub(/.*tag=/, "", $4); print}' 
+
+
+
+awk '$3 ~/gene/ {print}' as.gff |awk -v "OFS=\t" '{$9 = $9; sub(/.*tag=/,"",$9); print}'| awk '{t=$7;$7=$9;$9=t;print;}'| cut -f1,4,5,7,9| cut -d ';' -f1 |awk '{ ($2=$2-1)"" };1'|awk '{print "."$5};1'
+
+
+
+awk '$3 ~/gene/ {print}' as.gff | awk '{t=$7;$7=$9;$9=t;print;}'| awk -v "OFS=\t" '{$7 = $7; sub(/.*tag=/,"",$7); print}'| cut -f1,4,5,7,9|cut -d ';' -f1 |awk '{ ($2=$2-1)"" };1'|awk '$4 = $4 FS "."' |perl -p -e 's/ +/\t/g'|awk  '$6!=""'
+
+
+
+
+ awk '$3 ~/gene/ {print}' as.gff | awk '{t=$7;$7=$9;$9=t;print;}'| awk -v "OFS=\t" '{$7 = $7; sub(/.*tag=/,"",$7); print}'| cut -f1,4,5,7,9|cut -d ';' -f1 |awk '{ ($2=$2-1)"" };1'| sort -u
+
+
+
+at the nf file : 
+
+awk '\$3 ~/gene/ {print;}' $gtfFile | awk '{t=\$7;\$7=\$9;\$9=t;print;}'| awk -vOFS="\t" '{\$7 = \$7; sub(/.*tag=/,"",\$7); print}'|
+cut -f1,4,5,7,9 | cut -d ';' -f1 |awk '{ (\$2=\$2-1)"" };1'|
+ awk '\$4 = \$4 FS "."'| perl -p -e 's/ +/\t/g'|awk  '\$6!=""' > tempFile.bed

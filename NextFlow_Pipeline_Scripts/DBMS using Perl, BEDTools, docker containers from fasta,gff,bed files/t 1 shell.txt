@@ -1,0 +1,1 @@
+grep -i 'Insulin' hmmer_results.txt |column -t | sed 's/>//' 
