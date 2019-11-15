@@ -1,0 +1,24 @@
+>sp_P01318.2     insulin  preproprotein   [INS          SHEEP]        28           104  28   104         PF00049.18  Insulin     1        85  85     79.36    3.1e-22  1.7e-26  1        0       CL0239
+>NP_000198.1     insulin  preproprotein   [Homo         sapiens]      28           109  28   109         PF00049.18  Insulin     1        85  85     91.04    7.1e-26  3.9e-30  1        0       CL0239
+>NP_062003.1     insulin  preproprotein   [Rattus       norvegicus]   28           109  28   109         PF00049.18  Insulin     1        85  85     94.79    4.8e-27  2.7e-31  1        0       CL0239
+>sp_P01330.1     insulin  preproprotein   [INS          MYOCO]        4            25   4    29          PF00049.18  Insulin     1        25  85     24.60    3.8e-05  4.2e-09  1        0       CL0239
+>sp_P01330.1     insulin  preproprotein   [INS          MYOCO]        26           49   25   49          PF00049.18  Insulin     62       85  85     29.79    9.2e-07  1.0e-10  1        0       CL0239
+>sp_P01330.1     insulin  preproprotein   [INS          MYOCO]        4            49   4    50          PF03488.14  Ins_beta    1        46  48     25.46    1.0e-05  1.1e-09  1        1       CL0239
+>NP_990553.1     insulin  preproinsulin   precursor     [Gallus       gallus]      28   106  28          106         PF00049.18  Insulin  1   85     85       86.34    2.1e-24  1.2e-28  1       0       CL0239
+>sp_P67974.1     insulin  preproprotein   [INS          PHYCD]        4            28   4    30          PF00049.18  Insulin     1        28  85     35.72    1.3e-08  7.2e-13  1        0       CL0239
+>sp_P67974.1     insulin  preproprotein   [INS          PHYCD]        29           50   28   50          PF00049.18  Insulin     64       85  85     29.69    9.8e-07  5.5e-11  1        0       CL0239
+>NP_001008996.1  insulin  preproprotein   [Pan          troglodytes]  28           109  28   109         PF00049.18  Insulin     1        85  85     91.04    7.1e-26  3.9e-30  1        0       CL0239
+>NP_001075804.1  insulin  precursor       [Oryctolagus  cuniculus]    28           109  28   109         PF00049.18  Insulin     1        85  85     88.44    4.6e-25  2.6e-29  1        0       CL0239
+>NP_001079350.1  insulin  precursor       [Xenopus      laevis]       27           105  27   105         PF00049.18  Insulin     1        85  85     85.96    2.7e-24  1.5e-28  1        0       CL0239
+>NP_001079351.1  insulin  precursor       [Xenopus      laevis]       27           105  27   105         PF00049.18  Insulin     1        85  85     85.93    2.8e-24  1.6e-28  1        0       CL0239
+>NP_001093706.1  insulin  precursor       [Xenopus      tropicalis]   27           105  27   105         PF00049.18  Insulin     1        85  85     85.10    5.0e-24  2.8e-28  1        0       CL0239
+>NP_001103242.1  insulin  precursor       [Sus          scrofa]       28           107  28   107         PF00049.18  Insulin     1        85  85     84.60    7.2e-24  4.0e-28  1        0       CL0239
+>NP_001123565.1  insulin  precursor       [Canis        lupus         familiaris]  28   109  28          109         PF00049.18  Insulin  1   85     85       88.61    4.1e-25  2.3e-29  1       0       CL0239
+>NP_001166362.1  insulin  precursor       [Cavia        porcellus]    28           109  28   109         PF00049.18  Insulin     1        85  85     83.52    1.6e-23  8.7e-28  1        0       CL0239
+>NP_001172013.1  insulin  preproprotein   [Mus          musculus]     28           109  28   109         PF00049.18  Insulin     1        85  85     93.47    1.2e-26  6.9e-31  1        0       CL0239
+>NP_001172055.1  insulin  preproprotein   [Bos          taurus]       28           104  28   104         PF00049.18  Insulin     1        85  85     80.25    1.6e-22  9.2e-27  1        0       CL0239
+>XP_003206326.1  insulin  [Meleagris      gallopavo]    28            106          28   106  PF00049.18  Insulin     1           85       85  86.34  2.1e-24  1.2e-28  1        0        CL0239
+>XP_003422420.1  insulin  [Loxodonta      africana]     28            104          28   104  PF00049.18  Insulin     1           85       85  83.68  1.4e-23  7.8e-28  1        0        CL0239
+>XP_005522396.1  insulin  [Pseudopodoces  humilis]      28            106          28   106  PF00049.18  Insulin     1           85       85  86.63  1.7e-24  9.4e-29  1        0        CL0239
+>XP_009100443.1  insulin  [Serinus        canaria]      28            106          28   106  PF00049.18  Insulin     1           85       85  85.88  2.9e-24  1.6e-28  1        0        CL0239
+>XP_005499300.2  insulin  isoform         X1            [Columba      livia]       60   138  60          138         PF00049.18  Insulin  1   85     85       84.26    9.2e-24  5.1e-28  1       0       CL0239
